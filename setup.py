@@ -8,5 +8,5 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(),
     license='MIT',
-    install_requires=[],
+    install_requires=["flask"],
 )
