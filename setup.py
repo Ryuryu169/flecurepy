@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='flecurepy',
-    version="0.0.2",
+    version="0.0.3",
     description="package for flecure",
     author='kaname',
     # package_dir={'': 'src'},
