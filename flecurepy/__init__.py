@@ -1,4 +1,4 @@
-from .hello import app, run_server
+from .hello import get_key
 from .function import func
 
-__all__ = ["app", "run_server", "func"]
+__all__ = ["get_key", "func"]
