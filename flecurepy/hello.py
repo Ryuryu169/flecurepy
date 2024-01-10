@@ -1,16 +1,14 @@
-from flask import Flask
+# 
+import requests
 
-app = Flask(__name__)
+url = "http://localhost:3000"
 
-
-@app.route("/")
-def hello():
-    return "Hello World!"
-
-
-def run_server():
-    app.run(debug=True,port=6908)
-
+def get_key():
+    res = requests.get(url)
+    key = res.json()["data"]
+    with open("key.txt", "w") as f:
+        f.write(key)
+    print("key.txt was created.")
 
 if __name__ == "__main__":
-    run_server()
+    get_key()
