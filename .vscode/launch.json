@@ -14,6 +14,15 @@
                 "encrypt"
             ],
             "justMyCode": true
+        },
+        {
+            "name": "Python: Test",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/tests/test.py",
+            "console": "integratedTerminal",
+            "args": [],
+            "justMyCode": true
         }
     ]
 }

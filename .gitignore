@@ -1,1 +1,7 @@
 __pycache__
+*.txt
+build
+flecurepy.egg-info
+.flecure
+.vscode
+.git

@@ -1,4 +1,4 @@
-from .hello import get_key
-from .function import func
+from .function import get_key, encrypt_file, decrypt_file
+from .debug import hello
 
-__all__ = ["get_key", "func"]
+__all__ = ["hello", "get_key", "encrypt_file", "decrypt_file"]
