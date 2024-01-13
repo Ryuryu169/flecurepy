@@ -7,7 +7,7 @@ subprocess.run(["pip", "install", "."], check=True)
 import flecurepy
 
 keypath = ".flecure/settings.json"
-filepath = "example.txt"
+filepath = "result/example.txt"
 
 key = flecurepy.get_key(keypath)
 flecurepy.encrypt_file(key, filepath)

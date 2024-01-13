@@ -1,6 +1,7 @@
 __pycache__
 *.txt
 build
+result
 flecurepy.egg-info
 .flecure
 .vscode

@@ -1,10 +1,10 @@
 # flecure
-<br > 
+<br /> 
 <p align="center">
-    <img src="icon.png" width="150" height="150">
+    <img src="assets/icon.png" width="300" height="300">
 </p>
 
-<br >
+<br />
 
 ## About the project
 
@@ -40,7 +40,7 @@ This project is for personal use only. If you want to use it, you can fork it an
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ## Contact
 

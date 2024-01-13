@@ -1,2 +1,2 @@
-url = "http://localhost:3000/cli_login?token=1234567890"
-service_url = "http://localhost:3000/get_key"
+service_local_url = "http://localhost:3000/get_key"
+service_url = "https://flecure-flask.vercel.app/get_key"
