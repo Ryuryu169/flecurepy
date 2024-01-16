@@ -4,7 +4,7 @@ import json
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
-from .settings import service_url
+from .settings import service_url, service_local_url
 
 def get_cookie(keypath):
     with open(keypath, "r") as f:
@@ -15,10 +15,13 @@ def get_cookie(keypath):
     return cookie, service
 
 
-def get_key(filepath):
+def get_key(filepath, debug=False):
     print("Getting key")
     cookie, service = get_cookie(filepath)
-    res = requests.get(service_url + "?cookie=" + cookie + "&service=" + service + "&cli=1")
+    url = service_url
+    if debug:
+        url = service_local_url
+    res = requests.get(url + "?cookie=" + cookie + "&service=" + service + "&cli=1")
     print(res.text)
     return hashlib.sha256(res.text.encode()).digest()
 

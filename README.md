@@ -41,6 +41,7 @@ This project is for personal use only. If you want to use it, you can fork it an
 
 ### 0.1.1
 + Modified server URL and slight changes to the code
++ Added debug option (For localhost testing)
 
 ## License
 
