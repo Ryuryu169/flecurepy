@@ -18,7 +18,7 @@ def get_cookie(keypath):
 def get_key(filepath):
     print("Getting key")
     cookie, service = get_cookie(filepath)
-    res = requests.get(service_url + "?cookie=" + cookie + "&service=" + service)
+    res = requests.get(service_url + "?cookie=" + cookie + "&service=" + service + "&cli=1")
     print(res.text)
     return hashlib.sha256(res.text.encode()).digest()
 
