@@ -25,7 +25,7 @@ You need to have Python 3.8 or higher installed on your computer.
 If you want to use it as is, you can use the following command to install it:
 
 ```Python
-pip install git+https://github.come/Ryuryu169/flecurepy
+pip install git+https://github.com/Ryuryu169/flecurepy.git
 ```
 
 ### Usage
