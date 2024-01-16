@@ -34,9 +34,13 @@ This project is for personal use only. If you want to use it, you can fork it an
 
 ## Roadmap
 
+### 0.1.0
 + Get cookie from config file
 + Get key from server
 + Encrypt/Decrypt given file
+
+### 0.1.1
++ Modified server URL and slight changes to the code
 
 ## License
 
